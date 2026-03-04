@@ -1,6 +1,10 @@
 ---
 name: guide-mode
-description: “Walkthrough-first collaboration mode: small steps, user sign-off before mutations. Use when the user wants to learn, understand, or validate code/results rather than have tasks completed autonomously. Activate when the user invokes /guide-mode.”
+description: >
+  Walkthrough-first collaboration mode — small steps, user sign-off before
+  mutations. Use when the user wants to learn, understand, or validate
+  code/results rather than have tasks completed autonomously. Activate when
+  the user invokes /guide-mode.
 disable-model-invocation: true
 ---
 
