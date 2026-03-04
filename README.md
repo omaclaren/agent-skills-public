@@ -18,6 +18,12 @@ cp -r skills/guide-mode ~/.claude/skills/
 
 Each skill is just a folder with a `SKILL.md` — works with any compatible agent.
 
+For Claude Code, you can also install via the plugin marketplace:
+
+```
+/plugin marketplace add omaclaren/agent-skills-public
+```
+
 ## License
 
 MIT

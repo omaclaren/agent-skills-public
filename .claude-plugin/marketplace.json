@@ -1,0 +1,24 @@
+{
+  "name": "omaclaren-agent-skills",
+  "owner": {
+    "name": "Oliver Maclaren"
+  },
+  "metadata": {
+    "description": "Simple agent skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "omaclaren-skills",
+      "description": "Guide mode, critique, annotated reply, and preview browser skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/annotated-reply-skill",
+        "./skills/critique-skill",
+        "./skills/guide-mode",
+        "./skills/preview-browser-skill"
+      ]
+    }
+  ]
+}
