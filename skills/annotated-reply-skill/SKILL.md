@@ -29,6 +29,7 @@ Copy content to the clipboard with an annotation header so the user can paste it
      ```
      annotated reply below:
      original source: <label>
+     annotation syntax: [an: your note]
 
      ---
 
