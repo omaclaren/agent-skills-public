@@ -30,10 +30,13 @@ Copy content to the clipboard with an annotation header so the user can paste it
      annotated reply below:
      original source: <label>
      annotation syntax: [an: your note]
+     precedence: later messages supersede these annotations unless user explicitly references them
 
      ---
 
      <content>
+
+     --- end annotations ---
      ```
      Where `<label>` is either "last model response" or the file path.
 4. **Copy to clipboard**: Pipe the prefill to `pbcopy` (macOS) or `xclip -selection clipboard` (Linux).
