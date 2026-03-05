@@ -2,6 +2,15 @@
 
 Some simple agent skills. Follow the [Agent Skills specification](https://agentskills.io).
 
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| **guide-mode** | Walkthrough-first collaboration mode — small steps, user sign-off before mutations |
+| **critique-skill** | Structured critique of writing or code |
+| **annotated-reply-skill** | Copy the last response to clipboard with an annotation header, ready to paste back and mark up |
+| **preview-browser-skill** | Render markdown as HTML and open in the browser |
+
 ## Install
 
 Copy any skill folder to your agent's skills directory:
