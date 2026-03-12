@@ -21,7 +21,7 @@ Render markdown to HTML and open in the default browser.
 
 ```bash
 sed 's/\[an: \([^]]*\)\]/<mark>\1<\/mark>/g' <input> \
-  | pandoc -t html -s --metadata title="<TITLE>" \
+  | pandoc -t html -s --mathjax --metadata title="<TITLE>" \
     --css /tmp/preview-style.css \
     -o /tmp/preview-browser-skill.html \
   && open /tmp/preview-browser-skill.html
