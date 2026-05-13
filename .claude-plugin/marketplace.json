@@ -10,13 +10,14 @@
   "plugins": [
     {
       "name": "omaclaren-skills",
-      "description": "Guide mode, critique, annotated reply, and preview browser skills",
+      "description": "Guide mode, critique, annotated reply, preview browser, and IIR identifiability skills",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/annotated-reply-skill",
         "./skills/critique-skill",
         "./skills/guide-mode",
+        "./skills/iir-identifiability",
         "./skills/preview-browser-skill"
       ]
     }

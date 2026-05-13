@@ -10,6 +10,7 @@ Some simple agent skills. Follow the [Agent Skills specification](https://agents
 | **critique-skill** | Structured critique of writing or code |
 | **annotated-reply-skill** | Copy the last response to clipboard with an annotation header, ready to paste back and mark up |
 | **preview-browser-skill** | Render markdown as HTML and open in the browser |
+| **iir-identifiability** | Guided Invariant Image Reparameterisation (IIR) identifiability analysis for new mathematical/simulation models |
 
 ## Install
 
